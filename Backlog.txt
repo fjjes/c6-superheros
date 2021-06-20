@@ -34,5 +34,5 @@ USER TYPE: PUBLIC
 - view public profile of superhero
 - rate superhero
 
-
+MONGODB_URL=mongodb+srv://dbReadOnlyUser:jelly1234@cluster0.vvqav.mongodb.net/MERN-STARTER-DB?retryWrites=true&w=majority
 
