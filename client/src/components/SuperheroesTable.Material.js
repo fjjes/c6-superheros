@@ -13,11 +13,12 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
   headerCell: {
-    color: 'blue',
+    color: 'brown',
     fontWeight: 'bold',
   },
 });
 
+//this is not used
 const SimpleTable = () => {
   const [rows, setRows] = useState([]);
   const classes = useStyles();
