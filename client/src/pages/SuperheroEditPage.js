@@ -21,7 +21,7 @@ const SuperheroEditPage = () => {
       
     let onSave = async function(updatedSuperhero){
         try {
-            let putResponse = await fetch(`/api/superhero/${superheroId}`, {
+            let putResponse = await fetch('/api/superhero/'+superheroId, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
