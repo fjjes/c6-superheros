@@ -1,8 +1,8 @@
-var express = require('express');
+const express = require('express');
 const passport = require('passport')
 let router = express.Router();
 
-const User = require('../models/User');
+// const User = require('../models/User');
 
 //login route
 router.post('/login',

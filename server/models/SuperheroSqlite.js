@@ -1,7 +1,8 @@
-const sqlite3 = require('sqlite3')
+// const sqlite3 = require('sqlite3')
 
-let connectionString = process.env.SQLITE_CONNECTION_STRING || 'superheros.sqlite'
-let db = new sqlite3.Database(connectionString)
+// let connectionString = process.env.SQLITE_CONNECTION_STRING || 'superheros.sqlite'
+// let db = new sqlite3.Database(connectionString)
+let db = require('./dbSqlite')
 
 async function findAll(){ 
   return new Promise((resolve, reject)=> {//how to adapt callback base api to promise based api
